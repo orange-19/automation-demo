@@ -9,7 +9,7 @@ pipeline{
         }
         stage('Listing files'){
             steps{
-                sh 'ls'
+                echo 'hello-world'
             }
         }
     }
