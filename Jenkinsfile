@@ -12,7 +12,7 @@ pipeline {
         stage('Verify Workspace') {
             steps {
                 sh '''
-                    echo "Current Directory:"
+                    echo "Current Directory is not working:"
                     pwd
 
                     echo "Repository Files:"
